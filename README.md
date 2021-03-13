@@ -14,9 +14,8 @@ The right side of the page lists the benefits of using Horiseon's services.
 Currently, the site is set up so that there are no external links.
 The links in the header instead lead to the corresponding sections of the page.
 
-
 ## Programs Used
-This website was made with HTML 5 and CSS 3.0, and refactored in Visual Studio Code 1.54.2.
+This website was designed with HTML 5 and CSS 3.0, and refactored in Visual Studio Code 1.54.2.
 
-## Example
-[Demo Screenshot](./Assets/images/01-html-css-git-homework-demo.png)
+## Example Image
+[Screenshot Of The Site](https://github.com/maxwellstickels/horiseon-landing-page/blob/main/Assets/images/01-html-css-git-homework-demo.png)
