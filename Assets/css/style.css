@@ -20,6 +20,7 @@ header h1 {
     font-size: 48px;
 }
 
+/* Important: changes color of the "seo" in Horiseon. */
 header h1 .seo {
     color: #d9dcd6;
 }
@@ -36,6 +37,7 @@ header div ul {
     list-style-type: none;
 }
 
+/* Header links. They currently wrap around and drop below the header if the screen is too small. */
 header div ul li {
     display: inline-block;
     margin-left: 25px;
@@ -50,13 +52,14 @@ p {
     font-size: 16px;
 }
 
-.hero {
+.main-image {
     height: 66.7%;
     width: 100%;
     margin-bottom: 25px;
     background-position: center;
 }
 
+/* Float-left and float-right classes are used to place content-section images on the edges w/ a side margin. */
 .float-left {
     float: left;
     margin-right: 25px;
@@ -71,6 +74,24 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content-section img {
+    max-height: 200px;
+}
+
+.content-section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -100,27 +121,10 @@ p {
     max-width: 150px;
 }
 
-.content-section {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.content-section img {
-    max-height: 200px;
-}
-
-.content-section h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
+/* The use of clear:both keeps the footer's h2 centered. */
 footer {
     padding: 30px;
-    clear: both;
+    clear:both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
